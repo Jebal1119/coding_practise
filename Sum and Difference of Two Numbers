@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner s = new Scanner(System.in);
+        int int1=s.nextInt();
+        int int2=s.nextInt();
+        float f1=s.nextFloat();
+        float f2=s.nextFloat();
+        System.out.print(int1+int2+" ");
+        System.out.println(int1-int2);
+        System.out.print(f1+f2+" ");
+        System.out.print(f1-f2);
+        
+        
+    }
+}
